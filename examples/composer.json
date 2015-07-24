@@ -1,0 +1,18 @@
+{
+  "name": "tomasberglund/ghost",
+  "authors": [
+    {
+      "name": "Tomas Berglund",
+      "email": "tomas@abouttime.se"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "Controllers/"
+    },
+    "files": [
+      "../ghost.php"
+    ]
+  }
+}
